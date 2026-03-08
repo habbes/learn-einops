@@ -6,3 +6,5 @@
 
 Inspired by [Einstein summation notation](https://en.wikipedia.org/wiki/Einstein_notation)
 
+[Einsum in Deep Learning](https://rockt.ai/2018/04/30/einsum)
+
