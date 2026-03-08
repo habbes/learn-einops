@@ -1,10 +1,33 @@
 # Learn [`einops`](https://einops.rocks/)
 
-[`einops` tutorials](https://einops.rocks/1-einops-basics/)
+- [`einops` tutorials](https://einops.rocks/1-einops-basics/)
+- [`einops` paper](https://openreview.net/pdf?id=oapKSVM2bcj)
+- Inspired by [Einstein summation notation](https://en.wikipedia.org/wiki/Einstein_notation)
+- [Einsum in Deep Learning](https://rockt.ai/2018/04/30/einsum)
+- [`einops` git repo](https://github.com/arogozhnikov/einops/)
 
-[`einops` paper](https://openreview.net/pdf?id=oapKSVM2bcj)
+I copied some code and resources from the offial repo in order to follow along with the examples in the doc.
 
-Inspired by [Einstein summation notation](https://en.wikipedia.org/wiki/Einstein_notation)
+# Setup
 
-[Einsum in Deep Learning](https://rockt.ai/2018/04/30/einsum)
+Install and use [`uv`](https://docs.astral.sh/uv/) to manage the python project, environments and run
+scripts within the context of the environment.
+
+This repo is [`uv` project](https://docs.astral.sh/uv/guides/projects) and runs runs scripts
+and install dependencies in its isolated python environment.
+
+To update the environment manually, of if you don't see the `.venv` folder in the project root, run
+
+```bash
+uv sync
+```
+
+You can run the Jupyter notebooks (`.ipynb`) in VS Code using the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+
+Make VS Code Jupyter extension is using the project's environment to execute code. If it prompts to you
+choose an environment, select custom path and enter `.venv/bin/python`.
+
+The python environment in use is displayed at the top right corner of the notebook.
+
+![Python env disabled in VS Code notebook](vscode-notebook-python-env.png)
 
