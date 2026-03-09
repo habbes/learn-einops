@@ -36,4 +36,4 @@ The python environment in use is displayed at the top right corner of the notebo
 I use notebooks to experiment with various `einops` functions and concepts as I'm learning:
 
 - [`01-basics.ipynb`](./01-basics.ipynb): The basics, based on [the basics page of the official tutorial](https://einops.rocks/1-einops-basics/)
-
+- [`02-deep-learning.ipynb`](./02-deep-learning.ipynb): Working with deep learning packages, based on [the deep learning section of the official tutorial](https://einops.rocks/2-einops-for-deep-learning/)
