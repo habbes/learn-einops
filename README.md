@@ -5,6 +5,7 @@
 - Inspired by [Einstein summation notation](https://en.wikipedia.org/wiki/Einstein_notation)
 - [Einsum in Deep Learning](https://rockt.ai/2018/04/30/einsum)
 - [`einops` git repo](https://github.com/arogozhnikov/einops/)
+- [Einops is all you need](https://cxtraa.github.io/machine-learning/einops-arena.html) (Quick reference of key tensor operations with `rearrange`, `reduce` and `einsum`)
 
 I copied some code and resources from the offial repo in order to follow along with the examples in the doc.
 
@@ -37,3 +38,4 @@ I use notebooks to experiment with various `einops` functions and concepts as I'
 
 - [`01-basics.ipynb`](./01-basics.ipynb): The basics, based on [the basics page of the official tutorial](https://einops.rocks/1-einops-basics/)
 - [`02-deep-learning.ipynb`](./02-deep-learning.ipynb): Working with deep learning packages, based on [the deep learning section of the official tutorial](https://einops.rocks/2-einops-for-deep-learning/)
+- [`03-einsum.ipynb`](./03-einsum.ipynb): Demontrates the `einsum` using various matrix and vector operations. Based on various einsum and einops blog posts: [Einsum is all you need](https://rockt.ai/2018/04/30/einsum), [Einops is all you need](https://cxtraa.github.io/machine-learning/einops-arena.html)
